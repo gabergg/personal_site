@@ -50,16 +50,21 @@ h1,h2,h3,h4,h5,h6{
 #top_bar ul{
   margin-top:100px;
   margin-bottom:20px;
+  margin-left:-40px;
   display:inline-block;
 }
 
 #top_bar ul li{
   display:inline;
   display:inline-block;
-  background-image:url('images/MBRPatt1.png');
+  background-image:url('images/MBR2Patt2.png');
   margin-left:25px;
   margin-right:25px;
-  opacity:.3;
+  opacity:.6;
+  border-radius:10px;
+  border-bottom-right-radius:15px;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
 }
 
 #top_bar ul li a{
@@ -107,7 +112,7 @@ h1,h2,h3,h4,h5,h6{
   width:100%;
   background-image:url('images/LBRPatt1.png');
   //background:#B48934;
-  height:150px;
+  //height:150px;
   float:left;
 }
 
@@ -116,6 +121,7 @@ h1,h2,h3,h4,h5,h6{
   margin:0 auto;
   color:#000000;
   font-size:14px;
+  text-align:center;
 }
 
 .contact_sec{
@@ -163,12 +169,38 @@ h1,h2,h3,h4,h5,h6{
 
 a.symbol:before {
     content: attr(title);
-    margin-right: 0.3em;
-    font-size: 130%;
+    //margin-right: 0.1em;
+    font-size: 420%;
 }
 
 a.symbol {
-    padding: 7px 5px 3px 5px;
+    padding: 3px 5px 3px 5px;
     color: white;
     text-decoration: none;
 }
+
+#externals{
+  text-align:center;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+#externals ul {
+  margin-top:100px;
+  margin-bottom:100px;
+  margin-left:-40px;
+  display:inline-block;
+}
+
+#externals ul li {
+  //display:inline;
+  display:inline-block;
+  //margin-right:10px;
+  padding-left:20px;
+  padding-right:20px;
+  opacity:1;
+}
+/*
+#externals ul li a{
+  background-image:url('images/MBRPatt1.png');
+}*/
