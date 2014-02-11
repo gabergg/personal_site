@@ -8,10 +8,10 @@
 }
 
 @font-face {
-    font-family: 'Mono Social Icons Font';
-    src: url('fonts/MonoSocialIconsFont-1.10.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'Mono Social Icons Font';
+  src: url('fonts/MonoSocialIconsFont-1.10.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 body {
@@ -19,13 +19,20 @@ body {
   background-color:#2F3D5D;
   background-attachment:fixed;
   background-size:100% 100%;
+  margin-top:20px;
   //font-family:frutiger;
-  font: normal 14px/1.5em "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size:14px;
+  letter-spacing:light;
 }
 
 h1,h2,h3,h4,h5,h6{
   font-family: Georgia, serif;
-  font-weight: bold;
+  font-weight: normal;
+}
+
+p, ul, ol{
+  line-height:1.5em;
 }
 
 .wrapper_full{
@@ -87,9 +94,11 @@ h1,h2,h3,h4,h5,h6{
 }
 
 #all_content{
-  width:1000px;
-  margin-left:auto;
-  margin-right:auto;
+  width:65em;
+  //width:1000px;
+  margin:0 auto;
+  //margin-left:auto;
+  //margin-right:auto;
   height:600px;
 }
 
@@ -154,29 +163,29 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .symbol, a.symbol:before {
-    font-family: 'Mono Social Icons Font';
-    -webkit-text-rendering: optimizeLegibility;
-    -moz-text-rendering: optimizeLegibility;
-    -ms-text-rendering: optimizeLegibility;
-    -o-text-rendering: optimizeLegibility;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    -moz-font-smoothing: antialiased;
-    -ms-font-smoothing: antialiased;
-    -o-font-smoothing: antialiased;
-    font-smoothing: antialiased;
+  font-family: 'Mono Social Icons Font';
+  -webkit-text-rendering: optimizeLegibility;
+  -moz-text-rendering: optimizeLegibility;
+  -ms-text-rendering: optimizeLegibility;
+  -o-text-rendering: optimizeLegibility;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-smoothing: antialiased;
 }
 
 a.symbol:before {
-    content: attr(title);
-    //margin-right: 0.1em;
-    font-size: 420%;
+  content: attr(title);
+  //margin-right: 0.1em;
+  font-size: 420%;
 }
 
 a.symbol {
-    padding: 3px 5px 3px 5px;
-    color: white;
-    text-decoration: none;
+  padding: 3px 5px 3px 5px;
+  color: white;
+  text-decoration: none;
 }
 
 #externals{
