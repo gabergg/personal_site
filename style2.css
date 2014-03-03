@@ -134,6 +134,10 @@ p, ul, ol{
   // background-color:#F0C5C5;
 }
 
+#leaving_tab{
+  text-align:center;
+}
+
 #contact_wrapper{
   width:100%;
   background-image:url('images/LBRPatt1.png');
