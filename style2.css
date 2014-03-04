@@ -57,25 +57,12 @@ p, ul, ol{
 #resume_pic{
   width:55%;
   height:auto;
-}
-
-#top_bar img{
   padding-top:23px;
 }
 
-
-/*
 #me_pic{
-  background-image:url('images/About_Me.png');
+  padding-top:23px;
 }
-
-#blog_pic{
-  background-image:url('images/Blog.png');
-}
-
-#resume_pic{
-  background-image:url('images/Resume.png');
-}*/
 
 #top_bar ul{
   margin-top:100px;
