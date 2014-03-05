@@ -49,6 +49,10 @@ p, ul, ol{
   padding-top:23px;
 }
 
+#blog_pic{
+  padding-top:7px;
+}
+
 #me_pic{
   padding-top:23px;
 }
@@ -99,6 +103,10 @@ p, ul, ol{
   display:none;
   min-height:600px;
   // overflow:hidden;
+}
+
+#portfolio_tab{
+  text-align:center;
 }
 
 .blurb{
