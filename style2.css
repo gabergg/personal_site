@@ -183,7 +183,6 @@ p, ul, ol{
 
 a.symbol:before {
   content: attr(title);
-  //margin-right: 0.1em;
   font-size: 420%;
 }
 
